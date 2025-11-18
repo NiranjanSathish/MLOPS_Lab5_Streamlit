@@ -114,7 +114,7 @@ Backend available at:
 - API Root: http://localhost:8000
 - Docs: http://localhost:8000/docs
 
-> **📸 Add Screenshot:** FastAPI Swagger UI
+>  ![FastAPI UI](assets/FastAPI_page.png)
 
 ---
 
@@ -136,7 +136,8 @@ streamlit run Dashboard.py
 Dashboard will open at:
 👉 http://localhost:8501
 
-> **📸 Add Screenshot:** Streamlit homepage with health check
+> 
+ ![Streamlit homepage with health check](assets/Streamlit_page.png)
 
 ---
 
@@ -161,8 +162,7 @@ Dashboard will open at:
 }
 ```
 
-> **📸 Add Screenshot:** Single prediction output
-
+>  ![Single Prediction Output](assets/Single_output.png)
 ---
 
 ## ✔ **Batch Input (List of Records)**
@@ -201,29 +201,12 @@ Dashboard will open at:
 ]
 ```
 
-> **📸 Add Screenshot:** Batch prediction output
+> ![Batch prediction output](assets/Batch_Output.png)
 
 ---
 
-# 📊 **7. Features Demonstration**
 
-Use the Streamlit UI to show:
-
-### ✔ Manual prediction form  
-> **📸 Add Screenshot:** Manual input form
-
-### ✔ JSON upload preview  
-> **📸 Add Screenshot:** Uploaded JSON preview
-
-### ✔ Prediction output with friendly labels
-> **📸 Add Screenshot:** Output showing "Cultivar A/B/C"
-
-### ✔ Probability visualization
-> **📸 Add Screenshot:** Probability bar chart
-
----
-
-# 🏁 **9. Conclusion**
+# 🏁 **7. Conclusion**
 This lab demonstrates a complete machine learning deployment pipeline using FastAPI and Streamlit. It includes:
 
 - Model training and serialization
@@ -240,22 +223,19 @@ You have successfully implemented and extended the professor’s template with a
 # 🖼️ **10. Screenshots**
 
 ### 📸 FastAPI Running:
-(Insert screenshot here)
+![](assets/FastAPI_page.png)
 
-### 📸 FastAPI Swagger Docs:
-(Insert screenshot here)
-
-### 📸 Streamlit Health Check:
-(Insert screenshot here)
+### 📸 Streamlit:
+![](assets/Streamlit_page.png)
 
 ### 📸 Manual Input Prediction:
-(Insert screenshot here)
+![](assets/Single_output.png)
 
 ### 📸 Probability Chart:
-(Insert screenshot here)
+![](assets/Chart.png)
 
 ### 📸 Batch Prediction Output:
-(Insert screenshot here)
+![](assets/Batch_Output.png)
 
 ---
 

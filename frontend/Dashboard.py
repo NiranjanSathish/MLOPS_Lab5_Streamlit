@@ -129,8 +129,8 @@ def normalize_uploaded_json(uploaded_json):
         raise ValueError("Uploaded JSON not recognized. Provide a dict or a list of dicts.")
 
 def run():
-    st.set_page_config(page_title="Model Demo (FastAPI + Streamlit)", layout="wide")
-    st.title("Model Demo — FastAPI integrated Streamlit Dashboard")
+    st.set_page_config(page_title="Wine Classification Dashboard", layout="wide")
+    st.title("Wine Classification Dashboard")
 
     # Sidebar
     with st.sidebar:
